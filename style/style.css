@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.bg-image{
+    background-image: url(../assets/main-coffee.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.712);
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.photo{
+    margin: 100px;
+    border-radius: 10px;
+}
+
+.text{
+    width: 350px;
+    font-size: 15px;    
+}
+
+
+.franquia{
+    height: 80vh;
+    padding: 20px 40px;
+    background-color: #0f0f0f;
+    
+} 
+
+.titulo{
+    padding: 30px 500px;
+}
+
+
+.locais{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.local{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.local img {
+    border-radius: 10px;
+}
+
+.local h3 {
+    margin-top: 20px;
+}
+
+.about{
+    background-image: url(../assets/about.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-2{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+
+.text2{
+    font-size: 15px;
+    padding: 20px 100px;
+    text-align: center;
+
+}
+
+.text2 h1{ 
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.span{
+    font-size: 20px;
+}
+
+.footer{
+    height: 80px;
+    text-align: center;
+    padding-top: 35px;
+    background-color: #0f0f0f;
+}
