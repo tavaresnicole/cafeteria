@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(255, 255, 219);
+    margin: 0;
+    align-items: center;
+}
+
+header{
+    text-align: center;
+    padding: 0px 250px;
+    padding-top: 30px;
+    color: rgb(59, 15, 15);
+    font-size: 20px;
+}
+
+.legendas{
+    padding: 0px 220px;
+    padding-top: 20px;
+    color: rgb(59, 15, 15);
+}
+
+.salgados{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 1000px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.croissant{
+    width: 400px;
+    height: 200px;
+    background-color: #FFF;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(59, 15, 15);
+    border-radius: 10px;
+}
+
+.avocado{
+    width: 400px;
+    height: 200px;
+    background-color: #FFF;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(59, 15, 15);
+    border-radius: 10px;
+}
+
+.pao{
+    width: 400px;
+    height: 200px;
+    background-color: #FFF;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(59, 15, 15);
+    border-radius: 10px;
+}
+
+.misto{
+    width: 400px;
+    height: 200px;
+    background-color: #FFF;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(59, 15, 15); 
+    border-radius: 10px;
+}
+
+.doces{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 1000px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cake{
+    width: 400px;
+    height: 200px;
+    background-color: #FFF;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    border: 3px solid rgb(59, 15, 15);
+    border-radius: 10px;
+}
+
+.lemon-pie{
+    width: 400px;
+    height: 200px;
+    background-color: #FFF;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(59, 15, 15);
+    border-radius: 10px;
+}
+
+.brownie{
+    width: 400px;
+    height: 200px;
+    background-color: #FFF;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(59, 15, 15);
+    border-radius: 10px;
+}
+
+.donuts{
+    width: 400px;
+    height: 200px;
+    background-color: #FFF;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(59, 15, 15);
+    border-radius: 10px;
+}
+
+
+.bebidas{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 1000px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cappuccino{
+    width: 400px;
+    height: 200px;
+    background-color: #FFF;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    border: 3px solid rgb(59, 15, 15);
+    border-radius: 10px;
+}
+
+.suco{
+    width: 400px;
+    height: 200px;
+    background-color: #FFF;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    border: 3px solid rgb(59, 15, 15);
+    border-radius: 10px;
+}
+
+.cha{
+    width: 400px;
+    height: 200px;
+    background-color: #FFF;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    border: 3px solid rgb(59, 15, 15);
+    border-radius: 10px;
+}
+
+.refrigerante{
+    width: 400px;
+    height: 200px;
+    background-color: #FFF;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    border: 3px solid rgb(59, 15, 15);
+    border-radius: 10px;
+}
+
+.img-cardapio{
+    width: 40%;
+    height: 100%;
+    margin-left: 0%;
+    border-radius: 10px;
+}
+
+.descricao{
+    margin: 10px;
+    text-align: center;
+}
+
+.valores{
+    color: red;
+}
+
+button{
+    background-color: green;
+    color: #FFF;
+    padding: 5px;
+    border-color: green;
+    border-radius: 5px;
+    border-top: 0px;
+    align-items: center;
+    cursor: auto;
+    cursor: pointer;
+}
+
+.footer{
+    height: 80px;
+    margin-top: 50px;
+    background-color: rgb(59, 15, 15);
+    font-size: 30px;
+    color: #FFF;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
