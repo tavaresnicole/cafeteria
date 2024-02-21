@@ -19,6 +19,7 @@
     margin: 0;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     display: flex;
 }
 
@@ -32,7 +33,6 @@
     font-size: 15px;    
 }
 
-
 .franquia{
     height: 80vh;
     padding: 20px 40px;
@@ -43,7 +43,6 @@
 .titulo{
     padding: 30px 500px;
 }
-
 
 .locais{
     display: flex;
